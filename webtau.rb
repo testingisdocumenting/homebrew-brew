@@ -10,6 +10,11 @@ class Webtau < Formula
   bottle :unneeded
 
   def install
+    inreplace ["webtau"] do |s|
+      s.gsub! /\$CWD\/lib\/\*/,"#{libexec}/lib/*"
+    end
+
     bin.install "webtau"
+    libexec.install Dir["*"]
   end
 end
