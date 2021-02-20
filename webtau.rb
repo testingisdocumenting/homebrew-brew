@@ -11,7 +11,7 @@ class Webtau < Formula
 
   def install
     inreplace ["webtau"] do |s|
-      s.gsub! /\$CWD\/lib\/\*/,"#{libexec}/lib/*"
+      s.gsub! /\$WEBTAU_SCRIPT_DIR\/lib\/\*/,"#{libexec}/lib/*"
     end
 
     bin.install "webtau"
