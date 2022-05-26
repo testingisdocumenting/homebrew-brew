@@ -7,8 +7,6 @@ class Znai < Formula
 
   depends_on "java"
 
-  bottle :unneeded
-
   def install
     inreplace ["znai"] do |s|
       s.gsub! /\$CWD\/lib\/\*/,"#{libexec}/lib/*"
