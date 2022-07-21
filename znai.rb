@@ -1,9 +1,9 @@
 class Znai < Formula
   desc "Build functional, maintainable, beautiful User Guides with Znai. Instant pages navigation. Local search. Multiple integrations to work with Python, Java, OpenAPI, etc. Transform \"getting started\" sections into slideshow for your workshops. Enterprise Docs Hub."
   homepage "https://github.com/testingisdocumenting/znai"
-  url "https://repo.maven.apache.org/maven2/org/testingisdocumenting/znai/znai-dist/1.57/znai-dist-1.57-znai.zip"
-  sha256 "d9c3418e4dd0916a8f92bb29887c119b2fa8bf875b0668ef1999266136e5c81b"
-  version "1.57.0"
+  url "https://repo.maven.apache.org/maven2/org/testingisdocumenting/znai/znai-dist/1.58/znai-dist-1.58-znai.zip"
+  sha256 "0388b0fe180ca66107aa9da3d8e2731c50fdfbb561c1c7720875eb5261beabe0"
+  version "1.58.0"
 
   depends_on "java"
 
