@@ -1,9 +1,9 @@
 class Webtau < Formula
-  desc "webtau - web test automation. command line tool to test across REST-API/Graph QL/Browser/Database/CLI"
+  desc "WebUau - web test automation. Test across REST-API/Graph QL/WebSocket/Browser/Database/CLI"
   homepage "https://github.com/testingisdocumenting/webtau"
-  url "https://repo.maven.apache.org/maven2/org/testingisdocumenting/webtau/webtau-dist/1.50/webtau-dist-1.50-webtau.zip"
-  sha256 "37140a6c87d5b4faba3879221603a20aa562e74b0f111a056556864e93565316"
-  version "1.50"
+  url "https://repo.maven.apache.org/maven2/org/testingisdocumenting/webtau/webtau-dist/1.53/webtau-dist-1.53-webtau.zip"
+  sha256 "8dc49e6919e94bcd9b40e54dfb1eb6a0f3c6fafc5461142666d8fa66590fe28f"
+  version "1.53"
 
   depends_on "java"
 
